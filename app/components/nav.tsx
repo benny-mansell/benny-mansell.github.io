@@ -55,7 +55,7 @@ export default function Nav() {
           )}
         </button>
         {props.isOpen && (
-          <div className="w-full max-w-48 font-light justify-center p-2">
+          <div className="w-full max-w-56 font-light justify-center p-2">
             {props.data}
           </div>
         )}
@@ -64,14 +64,12 @@ export default function Nav() {
   }
 
   return (
-    <div className="mx-20 mb-5 mt-5 lg:mt-64 lg:mb-auto pb-5 pt-5">
+    <div className="mt-2 mb-4 lg:mt-64">
       <div className="flex flex-col items-center justify-between h-16">
-        <div className="px-100">
-          <span className="text-lg text-2xl text-zinc-100 font-semibold whitespace-nowrap">
+        <div className="flex flex-col justify-center items-center py-2 text-m text-zinc-100">
+          <span className="text-3xl text-zinc-100 font-semibold">
             <a href="/">BENNY MANSELL </a>
           </span>
-        </div>
-        <div className="flex flex-col justify-center items-center py-2 text-m text-zinc-100">
           {accordions.map((accordion) => (
             <Accordion
               key={accordion.key}
