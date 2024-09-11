@@ -10,36 +10,14 @@ const Video = ({
   width: number;
   height: number;
 }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
   return (
-    <div className="flex justify-center items-center h-100 py-5 ">
-      <video
-        src={src}
-        className={`transition-all duration-1000 ${
-          isHovered ? "w-3/4 h-3/4" : `w-${width} h-${height}`
-        }`}
-        width={isHovered ? width * 1.5 : width}
-        height={isHovered ? height * 1.5 : height}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        controls
-      />
-      <div
-        className={`flex flex-col w-1/4 px-5 ${isHovered ? "hidden" : "block"}`}
-      >
-        <h2 className="text-3xl lg:text-4xl mb-4 font-bold text-neutral-900">
+    <div className="flex flex-col lg:flex-row justify-center items-center h-100 px-5 py-5 ">
+      <iframe src={src} width="650" height="400" allow="autoplay"></iframe>
+      <div className="flex flex-col py-5 md:w-1/4 md:px-5">
+        <h2 className="text-3xl lg:text-4xl mb-2 font-bold text-zinc-100">
           VIDEO TITLE
         </h2>
-        <p>
+        <p className="text-zinc-100">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
