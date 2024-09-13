@@ -5,13 +5,6 @@ export default function Nav() {
   const [accordions, setAccordion] = useState([
     {
       key: 1,
-      title: "ABOUT",
-      data: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      isOpen: false,
-    },
-    {
-      key: 2,
       title: "CONTACT",
       data: (
         <div className="flex flex-row justify-center space-x-4">
@@ -55,7 +48,7 @@ export default function Nav() {
           )}
         </button>
         {props.isOpen && (
-          <div className="w-full max-w-56 font-light justify-center p-2">
+          <div className="w-full max-w-56 font-light text-center p-2">
             {props.data}
           </div>
         )}
@@ -64,13 +57,21 @@ export default function Nav() {
   }
 
   return (
-    <div className="mt-2 mb-4 lg:mt-64">
+    <div className="mt-10 mb-10 lg:mt-64">
       <div className="flex flex-col items-center justify-between h-16">
         <div className="flex flex-col justify-center items-center py-2 text-m text-zinc-100">
-          <span className="text-3xl text-zinc-100 font-semibold">
+          <span className="text-4xl text-zinc-100 font-semibold p-5 text-center">
             <a href="/">BENNY MANSELL </a>
           </span>
-          {accordions.map((accordion) => (
+          <span className="flex flex-row space-x-4">
+            <a href="https://www.linkedin.com/in/benny-mansell/">
+              <img alt="Linkedin" src="./linkedin.svg" />
+            </a>
+            <a href="">
+              <img alt="Email" src="./email.svg" />
+            </a>
+          </span>
+          {/* {accordions.map((accordion) => (
             <Accordion
               key={accordion.key}
               title={accordion.title}
@@ -78,7 +79,7 @@ export default function Nav() {
               isOpen={accordion.isOpen}
               toggleAccordion={() => toggleAccordion(accordion.key)}
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
