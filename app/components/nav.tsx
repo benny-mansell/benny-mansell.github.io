@@ -67,7 +67,7 @@ export default function Nav() {
             <a href="https://www.linkedin.com/in/benny-mansell/">
               <img alt="Linkedin" src="./linkedin.svg" />
             </a>
-            <a href="">
+            <a href="mailto:bennymansell49@gmail.com">
               <img alt="Email" src="./email.svg" />
             </a>
           </span>
