@@ -10,6 +10,17 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center">
           <Video
+            src="https://drive.google.com/file/d/11yOMoDKp1-RvxvCvZ97dXUJKZytlssNf/preview"
+            content={
+              <div className="flex flex-col py-5 px-5 lg:max-w-64 text-center lg:text-left">
+                <h2 className="text-2xl lg:text-3xl mb-2 font-bold text-zinc-100">
+                  ADIDAS: <br /> &quot;YOU GOT THIS&quot;
+                </h2>
+                <p className="text-zinc-100 font-semibold">OCTOBER 2024</p>
+              </div>
+            }
+          />
+          <Video
             src="https://drive.google.com/file/d/15zYR30LUT2w0MarZ9aF1EIGhpntJrzec/preview"
             content={
               <div className="flex flex-col py-5 px-5 lg:w-64 text-center lg:text-left">
