@@ -10,7 +10,23 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center">
           <Video
-            src="https://drive.google.com/file/d/11yOMoDKp1-RvxvCvZ97dXUJKZytlssNf/preview"
+            src="https://drive.google.com/file/d/1vaw5rVsp3dBeq1XVpjhHVJ693Lm-ipHx/preview"
+            content={
+              <div className="flex flex-col py-5 px-5 lg:max-w-64 text-center lg:text-left">
+                <h2 className="text-2xl lg:text-3xl mb-2 font-bold text-zinc-100">
+                  BRAN AND PARK
+                </h2>
+
+                <p className="text-zinc-100 font-semibold">DECEMBER 2024</p>
+                <p className="text-zinc-100 text-sm ">
+                  5 classmates and I were given a script and created a short
+                  film.
+                </p>
+              </div>
+            }
+          />
+          <Video
+            src="https://drive.google.com/file/d/1NGrdSE7k5KRud_f9tV3HHYeIbpNEbAVl/preview"
             content={
               <div className="flex flex-col py-5 px-5 lg:max-w-64 text-center lg:text-left">
                 <h2 className="text-2xl lg:text-3xl mb-2 font-bold text-zinc-100">
@@ -21,7 +37,7 @@ export default function Home() {
             }
           />
           <Video
-            src="https://drive.google.com/file/d/15zYR30LUT2w0MarZ9aF1EIGhpntJrzec/preview"
+            src="https://drive.google.com/file/d/1RH2JgtTctHcBqxlkUmiPZsQebZ69W747/preview"
             content={
               <div className="flex flex-col py-5 px-5 lg:w-64 text-center lg:text-left">
                 <h2 className="text-2xl lg:text-3xl mb-2 font-bold text-zinc-100">
@@ -32,7 +48,7 @@ export default function Home() {
             }
           />
           <Video
-            src="https://drive.google.com/file/d/1WtviT1y57vQYhOXpBGFH6lEV5ekAp4o3/preview"
+            src="https://www.youtube.com/embed/M4_AA_Lg9bs?si=6X8LKNWCaqv7y6Lw"
             content={
               <div className="flex flex-col py-5 px-5 lg:max-w-64 text-center lg:text-left">
                 <h2 className="text-2xl lg:text-3xl mb-2 font-bold text-zinc-100">
