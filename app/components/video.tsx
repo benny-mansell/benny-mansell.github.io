@@ -7,7 +7,7 @@ const Video = ({ src, content }: { src: string; content: any }) => {
       <iframe
         className="w-[300px] h-[168px] sm:w-[400px] sm:h-[225px] md:h-[300px] md:w-[533px] max-w-screen aspect-video"
         src={src}
-        allow="autoplay"
+        allow="fullscreen"
       ></iframe>
       {content}
     </div>
