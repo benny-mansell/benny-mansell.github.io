@@ -10,7 +10,7 @@ const Video = ({ src, content }: { src: string; content: any }) => {
           src={src}
           allow="fullscreen"
         ></iframe>
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-65 text-white text-sm opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-65 text-white text-sm opacity-100 transition-opacity duration-300 group-hover:opacity-0 group-hover:pointer-events-none">
           {content}
         </div>
       </div>
