@@ -9,8 +9,9 @@ const Video = ({ src, content }: { src: string; content: any }) => {
           className="w-[400px] h-[225px] max-w-screen aspect-video"
           src={src}
           allow="fullscreen"
+          aria-labelledby="videoTitle"
         ></iframe>
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 text-white text-sm opacity-100 transition-opacity duration-300 group-hover:opacity-0 group-hover:pointer-events-none">
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-sm opacity-100 transition-opacity duration-300 group-hover:opacity-0 group-hover:pointer-events-none">
           {content}
         </div>
       </div>
