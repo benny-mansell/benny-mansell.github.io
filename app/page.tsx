@@ -10,6 +10,25 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center">
           <Video
+            src="https://drive.google.com/file/d/1iMyO36KnaJY_-4aGUDtV8kLrW9rY55Vp/preview"
+            content={
+              <div className="flex flex-col py-5 px-5 lg:max-w-64 text-center lg:text-left">
+                <h2 className="text-2xl lg:text-3xl mb-2 font-bold text-zinc-100">
+                  PUMA FOREVER FASTER SPEC AD
+                </h2>
+
+                <p className="text-zinc-100 font-semibold">DECEMBER 2024</p>
+                <p className="text-zinc-100 text-sm ">
+                  Created a 30 second ad for Puma&apos;s FOREVER. FASTER.
+                  campaign. Chose lifestyle and running shoes to portray the
+                  diversity of the brand as well as quick, action filled cuts to
+                  emphasize the cat-like characteristics of Pumas: endurance,
+                  suppleness, and speed.
+                </p>
+              </div>
+            }
+          />
+          <Video
             src="https://drive.google.com/file/d/1vaw5rVsp3dBeq1XVpjhHVJ693Lm-ipHx/preview"
             content={
               <div className="flex flex-col py-5 px-5 lg:max-w-64 text-center lg:text-left">
