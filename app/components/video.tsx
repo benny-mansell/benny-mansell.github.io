@@ -3,13 +3,17 @@ import React, { useState } from "react";
 
 const Video = ({ src, content }: { src: string; content: any }) => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center mt-10 px-5 pt-10">
-      <iframe
-        className="w-[300px] h-[168px] sm:w-[400px] sm:h-[225px] md:h-[300px] md:w-[533px] max-w-screen aspect-video"
-        src={src}
-        allow="fullscreen"
-      ></iframe>
-      {content}
+    <div className="relative flex flex-col lg:flex-row items-center py-10">
+      <div className="relative group">
+        <iframe
+          className="w-[400px] h-[225px] max-w-screen aspect-video"
+          src={src}
+          allow="fullscreen"
+        ></iframe>
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-65 text-white text-sm opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+          {content}
+        </div>
+      </div>
     </div>
   );
 };
