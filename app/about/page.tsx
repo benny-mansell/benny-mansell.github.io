@@ -2,11 +2,15 @@ import Nav from "../components/nav";
 
 export default function About() {
   return (
-    <div className="bg-stone-50">
-      <Nav />
-      <main className="flex min-h-screen flex-col justify-between p-24">
-        <p> im benny </p>
-      </main>
-    </div>
+    <div className="w-screen h-screen">
+      <main className="bg-gradient-to-b from-zinc-950 to-[#44534f] flex flex-col lg:flex-row h-full min-w-full justify-evenly pb-24">
+       <p className="text-2xl font-bold text-zinc-100">
+      Hi im benny
+      
+        </p>
+        </main>
+        </div>
+        
   );
 }
+

@@ -12,7 +12,7 @@ export default function Home() {
           <Video
             src="https://drive.google.com/file/d/1mME7jWdnNB4fVm7bwURMkdaYwdt9pEp5/preview"
             content={
-              <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
+              <div className="py-5 px-2 lg:w-100 lg:h-200 text-center">
                 <h2
                   id="videoTitle"
                   className="text-2xl font-bold text-zinc-100"
@@ -121,12 +121,12 @@ export default function Home() {
                   working out at the pink and black exercise bars of Lake
                   Merritt. Shoutout Reymundo, Connor, Will, Ian, Isa, Q, Marcus,
                   George, and Jordan.
-                </p>
+                  </p>
               </div>
             }
-          />
+           /> 
         </div>
       </main>
-    </div>
-  );
-}
+      </div>
+      )}
+            
