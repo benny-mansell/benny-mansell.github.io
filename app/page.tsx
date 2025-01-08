@@ -10,7 +10,7 @@ export default function Home() {
         </div>
         <div className="columns-1 lg:columns-2 items-center">
           <Video
-            src="https://drive.google.com/file/d/1mME7jWdnNB4fVm7bwURMkdaYwdt9pEp5/preview"
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/BENNY+CHICAGO+FINAL.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center">
                 <h2
@@ -30,7 +30,7 @@ export default function Home() {
             }
           />
           <Video
-            src="https://drive.google.com/file/d/1iMyO36KnaJY_-4aGUDtV8kLrW9rY55Vp/preview"
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/FINAL+PUMA+12.15.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
                 <h2
@@ -54,7 +54,7 @@ export default function Home() {
             }
           />
           <Video
-            src="https://drive.google.com/file/d/1vaw5rVsp3dBeq1XVpjhHVJ693Lm-ipHx/preview"
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/Bran+and+Park.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
                 <h2
@@ -75,7 +75,7 @@ export default function Home() {
             }
           />
           <Video
-            src="https://drive.google.com/file/d/1NGrdSE7k5KRud_f9tV3HHYeIbpNEbAVl/preview"
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/Adidas+You+Got+This+10-15+FINAL.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
                 <h2
@@ -89,7 +89,7 @@ export default function Home() {
             }
           />
           <Video
-            src="https://drive.google.com/file/d/1RH2JgtTctHcBqxlkUmiPZsQebZ69W747/preview"
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/One+Shot.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
                 <h2
@@ -105,7 +105,7 @@ export default function Home() {
             }
           />
           <Video
-            src="https://www.youtube.com/embed/M4_AA_Lg9bs?si=6X8LKNWCaqv7y6Lw"
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/THE+BARS+AT+LAKE+MERRITT+-+A+SHORT+FILM.mp4"
             content={
               <div className="py-5 px-2 lg:w-90 lg:h-200 text-center mb-2 ">
                 <h2
