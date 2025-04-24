@@ -10,6 +10,26 @@ export default function Home() {
         </div>
         <div className="columns-1 lg:columns-2 items-center">
           <Video
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/7b764bbd-5818-4d0a-a339-e931b7a948c0.MP4"
+            content={
+              <div className="py-5 px-2 lg:w-100 lg:h-200 text-center">
+                <h2
+                  id="videoTitle"
+                  className="text-2xl font-bold text-zinc-100"
+                >
+                  KINIGOL CAMISETAS
+                </h2>
+                <p className="text-zinc-100 py-1 font-semibold">
+                  APRIL 2025
+                </p>
+                <p className="text-zinc-100 text-sm ">
+                  Crafted a short promotional ad for football jersey store Kinigol Camisetas down the street from me in Madrid. 
+                  Focused on still images and displaying the diversity of the shop.
+                </p>
+              </div>
+            }
+          />
+          <Video
             src="https://benny-files-100.s3.us-east-1.amazonaws.com/BENNY+CHICAGO+FINAL.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center">
