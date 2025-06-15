@@ -17,7 +17,7 @@ export default function Home() {
                   id="videoTitle"
                   className="text-2xl font-bold text-zinc-100"
                 >
-                  IMPERMANENCE.
+                  POOP.
                 </h2>
                 <p className="text-zinc-100 py-1 font-semibold">
                   DECEMBER 2024
