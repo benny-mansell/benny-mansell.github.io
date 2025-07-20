@@ -145,6 +145,28 @@ export default function Home() {
               </div>
             }
            /> 
+
+            <Video
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/NIKE+SPEC.mp4"
+            content={
+              <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
+                <h2
+                  id="videoTitle"
+                  className="text-2xl font-bold text-zinc-100"
+                >
+                  NIKE SPEC AD
+                </h2>
+
+                <p className="text-zinc-100 py-1 font-semibold">
+                  JULY 2025
+                </p>
+                <p className="text-zinc-100 text-sm ">
+                  Had an idea for a quick 15 second spec ad for some Nikes. Chop cuts, sonic design, and working without a tripod on this one.
+
+                </p>
+              </div>
+            }
+          />
         </div>
       </main>
       </div>
