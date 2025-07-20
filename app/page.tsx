@@ -4,7 +4,7 @@ import Video from "./components/video";
 export default function Home() {
   return (
     <div className="w-screen w-full h-full">
-      <main className="bg-gradient-to-b from-zinc-950 to-[#44534f] flex flex-col lg:flex-row h-full min-w-full justify-evenly pb-24">
+      <main className="bg-gradient-to-b from-gray-800 via-gray-700 to-gray-900 flex flex-col lg:flex-row h-full min-w-full justify-evenly pb-24">
         <div className="flex flex-col">
           <Nav />
         </div>
