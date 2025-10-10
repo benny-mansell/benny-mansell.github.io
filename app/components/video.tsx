@@ -26,4 +26,3 @@ const Video = ({ src, content }: { src: string; content: any }) => {
 };
 
 export default Video;
-
