@@ -63,13 +63,18 @@ export default function Nav() {
           <span className="text-4xl font-bold text-white p-5 text-center">
             <a href="/">BENNY MANSELL </a>
           </span>
-          <span className="flex flex-row space-x-4">
+          <span className="flex flex-row space-x-6">
+            <a href="/Photography">
+              <img alt="photo" src="./photo.svg" />
+            </a>
+
             <a href="https://www.linkedin.com/in/benny-mansell/">
               <img alt="Linkedin" src="./linkedin.svg" />
             </a>
-            <a href="mailto:bennymansell49@gmail.com">
+            <a  href="mailto:bennymansell49@gmail.com">
               <img alt="Email" src="./email.svg" />
             </a>
+
           </span>
           {/* {accordions.map((accordion) => (
             <Accordion

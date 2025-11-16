@@ -24,7 +24,7 @@ export default function Home() {
                   Curated a spec ad using fish-eye, camcorder, and Sony a7000.
                   Paid close attention to framing, quick cuts and timing with
                   music to tell the story of the product in a college setting.
-                  Ideated, directed and assisted in the editing process.
+                  Ideated, directed and edited.
                 </p>
               </div>
             }
