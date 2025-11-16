@@ -64,7 +64,7 @@ export default function Nav() {
             <a href="/">BENNY MANSELL </a>
           </span>
           <span className="flex flex-row space-x-6">
-            <a href="/Photography">
+            <a href="/photography">
               <img alt="photo" src="./photo.svg" />
             </a>
 
