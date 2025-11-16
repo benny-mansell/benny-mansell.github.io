@@ -60,7 +60,7 @@ export default function Photography() {
   );
 }
 */
-import Nav from "../components/nav";
+import Nav from "../components/Nav";
 import Photo from "../components/Photo";
 
 export default function Photography() {
@@ -78,7 +78,9 @@ export default function Photography() {
             src="/Images/Cefalu Water Edit copy.jpg"
             content={
               <div className="text-center mt-3">
-                <h2 className="text-2xl font-bold text-zinc-100">Cefalù, Sicily</h2>
+                <h2 className="text-2xl font-bold text-zinc-100">
+                  Cefalù, Sicily
+                </h2>
                 <p className="text-zinc-100 text-sm italic mt-1">
                   A beautiful view from Cefalù.
                 </p>
@@ -91,8 +93,12 @@ export default function Photography() {
             src="/Images/surf mid air.jpg"
             content={
               <div className="text-center mt-3">
-                <h2 className="text-2xl font-bold text-zinc-100">Surf in Motion</h2>
-                <p className="text-zinc-100 text-sm italic mt-1">I saw this live.</p>
+                <h2 className="text-2xl font-bold text-zinc-100">
+                  Surf in Motion
+                </h2>
+                <p className="text-zinc-100 text-sm italic mt-1">
+                  I saw this live.
+                </p>
               </div>
             }
             width="800px"
