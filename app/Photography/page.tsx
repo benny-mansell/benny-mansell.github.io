@@ -165,7 +165,42 @@ export default function Photography() {
             }
             width="500px"
           />
-
+          <Photo
+            src="/Images/Dante in Cefalú.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Cefalú, Italy</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Jorja.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">San Francisco, CA</h2>
+              </div>
+            }
+            width="500px"
+          />
+          <Photo
+            src="/Images/Los Roots.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Boys at Pellegrino.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Palermo, Italy</h2>
+              </div>
+            }
+            width="600px"
+          />
         </div>
       </main>
     </div>
