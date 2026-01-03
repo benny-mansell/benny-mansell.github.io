@@ -10,6 +10,23 @@ export default function Home() {
         </div>
         <div className="columns-1 lg:columns-2 items-center">
           <Video
+            src="https://benny-files-100.s3.us-east-1.amazonaws.com/adidas+tag+1-2-26+.mp4"
+            content={
+              <div className="py-5 px-2 lg:w-100 lg:h-200 text-center">
+                <h2
+                  id="videoTitle"
+                  className="text-2xl font-bold text-zinc-100"
+                >
+                  ADIDAS TAG
+                </h2>
+                <p className="text-zinc-100 py-1 font-semibold">JAN 2026</p>
+                <p className="text-zinc-100 text-sm ">
+                  Focused on pacing and getting a story across in a quick timeframe. Used the product to connect the actors and highlight the timeless joy of tag. Shot on VIXIA HF R300 camcorder.
+                </p>
+              </div>
+            }
+          />
+          <Video
             src="https://benny-files-100.s3.us-east-1.amazonaws.com/NEW+BALANCE+SPEC.mov"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center">
