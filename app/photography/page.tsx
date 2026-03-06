@@ -141,7 +141,62 @@ export default function Photography() {
             }
             width="600px"
           />
+           <Photo
+            src="/Images/Ollieboe.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Russian River, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+           <Photo
+            src="/Images/Mojo Trombone.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Amherst, MA</h2>
+              </div>
+            }
+            width="600px"
+          />
+           <Photo
+            src="/Images/Miguel and Jesus.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Amherst, MA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Jadybo and Karma.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Kieran Beach.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Mbire Rooftop.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
         </div>
+        
       </main>
     </div>
   )
