@@ -132,9 +132,12 @@ export default function Home() {
                   IMPERMANENCE.
                 </h2>
                 <h2 className="text-xl text-zinc-100">A SHORT FILM</h2>
-                <p className="text-zinc-100 py-1 font-semibold">DECEMBER 2024</p>
+                <p className="text-zinc-100 py-1 font-semibold">
+                  DECEMBER 2024
+                </p>
                 <p className="text-zinc-100 text-sm ">
-                  Exploring the remaining and detoriroating factors in Chicago, IL in a short short expository documentary.
+                  Exploring the remaining and detoriroating factors in Chicago,
+                  IL in a short short expository documentary.
                 </p>
               </div>
             }
@@ -198,7 +201,7 @@ export default function Home() {
               </div>
             }
           />
-           <Video
+          <Video
             src="https://benny-files-100.s3.us-east-1.amazonaws.com/NIKE+SPEC.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
@@ -211,8 +214,9 @@ export default function Home() {
 
                 <p className="text-zinc-100 py-1 font-semibold">JULY 2025</p>
                 <p className="text-zinc-100 text-sm ">
-                  Had an idea for a quick 15 second spec ad for some Nike Cortez's. Chop
-                  cuts, sonic design, and working without a tripod on this one.
+                  Had an idea for a quick 15 second spec ad for Nike Cortez.
+                  Chop cuts, sonic design, and working without a tripod on this
+                  one.
                 </p>
               </div>
             }
@@ -239,8 +243,8 @@ export default function Home() {
               </div>
             }
           />
-          
-           <Video
+
+          <Video
             src="https://benny-files-100.s3.us-east-1.amazonaws.com/One+Shot.mp4"
             content={
               <div className="py-5 px-2 lg:w-100 lg:h-200 text-center  ">
@@ -250,9 +254,13 @@ export default function Home() {
                 >
                   SUSPENSION
                 </h2>
-                 <p className="text-zinc-100 py-1 font-semibold">SEPTEMBER 2024</p>
+                <p className="text-zinc-100 py-1 font-semibold">
+                  SEPTEMBER 2024
+                </p>
                 <p className="text-zinc-100 text-sm ">
-                  Tasked with creating a one-shot one-minute video, decided to focus on the simplicity of keeping a football elevated. No faces, no audio, just environment.
+                  Tasked with creating a one-shot one-minute video, decided to
+                  focus on the simplicity of keeping a football elevated. No
+                  faces, no audio, just environment.
                 </p>
               </div>
             }
