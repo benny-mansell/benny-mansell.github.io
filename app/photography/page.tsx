@@ -12,7 +12,7 @@ export default function Photography() {
         </div>
 
         {/* Photo Gallery Section */}
-        <div className="flex flex-col items-center space-y-6 p-8">
+        <div className="grid grid-cols-2 gap-6 p-8 place-items-center">
 
           <Photo
             src="/Images/Cefalu Water Edit copy.jpg"
@@ -137,6 +137,15 @@ export default function Photography() {
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Palermo, Italy</h2>
+              </div>
+            }
+            width="600px"
+            />
+          <Photo
+            src="/Images/Los Roots.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
               </div>
             }
             width="600px"
