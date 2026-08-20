@@ -214,7 +214,7 @@ export default function Photography() {
             width="450px"
           />
           <Photo
-            src="/Images/Gigi Badlands.jpg"
+            src="/Images/Gigi Badlands 2.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Badlands, SD</h2>
@@ -223,7 +223,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/Yellowstone River.jpg"
+            src="/Images/Yellowstone View.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Yellowstone, WY</h2>
@@ -232,7 +232,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/MoGigi Beaver.jpg"
+            src="/Images/Beaver Valley.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Yellowstone, WY</h2>
@@ -241,7 +241,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/Zion Gigi.jpg"
+            src="/Images/Zion Gigi2.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Zion, UT</h2>
@@ -250,7 +250,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/Arjuna.jpg"
+            src="/Images/Arjuna1.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
@@ -259,7 +259,7 @@ export default function Photography() {
             width="600px"
           />
            <Photo
-            src="/Images/Seoul Intl Park.jpg"
+            src="/Images/Seoul G.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
@@ -268,7 +268,7 @@ export default function Photography() {
             width="450px"
           />
           <Photo
-            src="/Images/MEXKOR.jpg"
+            src="/Images/KORMEX.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
@@ -277,7 +277,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/MEXKOR2.jpg"
+            src="/Images/KORMEX2.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
@@ -285,8 +285,6 @@ export default function Photography() {
             }
             width="600px"
           />
-          You
-          
         </div>
         
       </main>
