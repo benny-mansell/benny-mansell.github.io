@@ -94,7 +94,7 @@ export default function Photography() {
                 <h2 className="text-2xl font-bold text-zinc-100">San Francisco, CA</h2>
               </div>
             }
-            width="400px"
+            width="450px"
           />
           <Photo
             src="/Images/Mbire Hooping.jpg"
@@ -121,16 +121,7 @@ export default function Photography() {
                 <h2 className="text-2xl font-bold text-zinc-100">San Francisco, CA</h2>
               </div>
             }
-            width="500px"
-          />
-          <Photo
-            src="/Images/Los Roots.jpg"
-            content={
-              <div className="text-center mt-3">
-                <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
-              </div>
-            }
-            width="600px"
+            width="450px"
           />
           <Photo
             src="/Images/Boys at Pellegrino.jpg"
@@ -166,7 +157,7 @@ export default function Photography() {
                 <h2 className="text-2xl font-bold text-zinc-100">Amherst, MA</h2>
               </div>
             }
-            width="600px"
+            width="450px"
           />
            <Photo
             src="/Images/Miguel and Jesus.jpg"
@@ -175,7 +166,7 @@ export default function Photography() {
                 <h2 className="text-2xl font-bold text-zinc-100">Amherst, MA</h2>
               </div>
             }
-            width="600px"
+            width="450px"
           />
           <Photo
             src="/Images/Jadybo and Karma.jpg"
@@ -184,7 +175,7 @@ export default function Photography() {
                 <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
               </div>
             }
-            width="600px"
+            width="450px"
           />
           <Photo
             src="/Images/Kieran Beach.jpg"
@@ -197,6 +188,96 @@ export default function Photography() {
           />
           <Photo
             src="/Images/Mbire Rooftop.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="450px"
+          />
+           <Photo
+            src="/Images/Cornell.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Ithaca, NY</h2>
+              </div>
+            }
+            width="450px"
+          />
+          <Photo
+            src="/Images/Gianni SDP.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Amherst, MA</h2>
+              </div>
+            }
+            width="450px"
+          />
+          <Photo
+            src="/Images/Gigi Badlands.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Badlands, SD</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Yellowstone River.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Yellowstone, WY</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/MoGigi Beaver.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Yellowstone, WY</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Zion Gigi.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Zion, UT</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/Arjuna.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+           <Photo
+            src="/Images/Seoul Intl Park.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="450px"
+          />
+          <Photo
+            src="/Images/MEXKOR.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/MEXKOR2.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
