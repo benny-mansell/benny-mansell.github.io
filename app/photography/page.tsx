@@ -103,7 +103,7 @@ export default function Photography() {
                 <h2 className="text-2xl font-bold text-zinc-100">Berkeley, CA</h2>
               </div>
             }
-            width="500px"
+            width="450px"
           />
           <Photo
             src="/Images/Dante in Cefalú.jpg"
@@ -214,7 +214,7 @@ export default function Photography() {
             width="450px"
           />
           <Photo
-            src="/Images/Gigi Badlands 2.jpg"
+            src="/Images/badlands.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Badlands, SD</h2>
@@ -223,7 +223,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/Yellowstone View.jpg"
+            src="/Images/yellowstone.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Yellowstone, WY</h2>
@@ -232,7 +232,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/Beaver Valley.jpg"
+            src="/Images/beavervalley.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Yellowstone, WY</h2>
@@ -241,7 +241,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/Zion Gigi2.jpg"
+            src="/Images/ziongigi.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Zion, UT</h2>
@@ -250,7 +250,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/Arjuna1.jpg"
+            src="/Images/arjuna.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
@@ -258,32 +258,32 @@ export default function Photography() {
             }
             width="600px"
           />
+          <Photo
+            src="/Images/kormex.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/kormex2.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
            <Photo
-            src="/Images/Seoul G.jpg"
+            src="/Images/seoulg.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
               </div>
             }
             width="450px"
-          />
-          <Photo
-            src="/Images/KORMEX.jpg"
-            content={
-              <div className="text-center mt-3">
-                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
-              </div>
-            }
-            width="600px"
-          />
-          <Photo
-            src="/Images/KORMEX2.jpg"
-            content={
-              <div className="text-center mt-3">
-                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
-              </div>
-            }
-            width="600px"
           />
         </div>
         
