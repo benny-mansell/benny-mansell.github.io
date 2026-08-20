@@ -277,7 +277,7 @@ export default function Photography() {
             width="600px"
           />
            <Photo
-            src="/Images/seoulg.jpg"
+            src="/Images/seoul.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
