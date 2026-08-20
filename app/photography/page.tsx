@@ -259,7 +259,7 @@ export default function Photography() {
             width="600px"
           />
           <Photo
-            src="/Images/kormex.jpg"
+            src="/Images/stoplight.jpg"
             content={
               <div className="text-center mt-3">
                 <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
