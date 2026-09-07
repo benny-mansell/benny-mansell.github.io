@@ -285,6 +285,42 @@ export default function Photography() {
             }
             width="450px"
           />
+          <Photo
+            src="/Images/moroccoflag.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Tangier, Morocco</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/salamanca.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Salamanca, Spain</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/asilahbench.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Asilah, Morocco</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/cinqueterra.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Cinqueterra, Italy</h2>
+              </div>
+            }
+            width="600px"
+          />
         </div>
         
       </main>
