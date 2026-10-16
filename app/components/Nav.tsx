@@ -22,6 +22,13 @@ export default function Nav() {
             </a>
           </span>
         </div>
+        <div className="mt-5">
+          <img
+            src="/Images/website front page.jpg"
+            alt="Main Page Photo"
+            className="w-32 h-32 rounded-full object-cover scale-125"
+          />
+        </div>
       </div>
     </div>
   );
