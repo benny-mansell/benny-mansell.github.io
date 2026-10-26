@@ -321,6 +321,87 @@ export default function Photography() {
             }
             width="600px"
           />
+          <Photo
+            src="/Images/sf gang.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">San Francisco, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+           <Photo
+            src="/Images/ebube beach.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/sunday1.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="450px"
+          />
+          <Photo
+            src="/Images/sunday2.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/sunday3.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="450px"
+          />
+          <Photo
+            src="/Images/sunday4.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="450px"
+          />
+          <Photo
+            src="/Images/sunday5.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="450px"
+          />
+           <Photo
+            src="/Images/sunday6.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Los Angeles, CA</h2>
+              </div>
+            }
+            width="600px"
+          />
+          <Photo
+            src="/Images/orange whip.jpg"
+            content={
+              <div className="text-center mt-3">
+                <h2 className="text-2xl font-bold text-zinc-100">Oakland, CA</h2>
+              </div>
+            }
+            width="450px"
+          />
         </div>
         
       </main>
